@@ -42,7 +42,7 @@ function App() {
           <h2 className='text-[#f54b10] text-2xl md:text-4xl font-semibold'>हमारी सेवाएँ</h2>
           <img src={swastik} alt="" className='size-9 md:size-auto'/>
         </div>
-        <div className='w-[85%] md:grid gap-y-5 grid-cols-3 mt-4 md:mt-8 mx-auto p-3'>
+        <div className='flex flex-col items-center w-[85%] md:grid md:gap-y-5 grid-cols-3 mt-4 md:mt-8 mx-auto p-3'>
           <div className='services'>
             <img src={service1} alt="" className='serviceimg'/> 
             {<div className='titles'>विवाह</div>}

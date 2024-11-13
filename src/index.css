@@ -19,11 +19,11 @@ code {
 }
 
 .services {
-  @apply relative flex justify-center w-fit mb-5 md:mb-2
+  @apply relative flex justify-center w-fit mb-5 md:mb-2 md:ml-8
 }
 
 .serviceimg {
-  @apply rounded-2xl
+  @apply flex justify-center rounded-2xl
 }
 
 .titles {
